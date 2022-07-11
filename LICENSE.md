@@ -1,4 +1,4 @@
-gba-hpp is available under the [zlib license](https://www.zlib.net/zlib_license.html) :
+gba-huff is available under the [zlib license](https://www.zlib.net/zlib_license.html) :
 
 This software is provided 'as-is', without any express or implied
 warranty.  In no event will the authors be held liable for any damages
