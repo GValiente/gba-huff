@@ -1,6 +1,6 @@
 # gba-huff
 
-C++14 Huffman compressor for the GBA, based on [gba-hpp](https://github.com/felixjones/gba-hpp).
+C++ Huffman compressor for the GBA, based on [gba-hpp](https://github.com/felixjones/gba-hpp).
 
 
 ## Usage
