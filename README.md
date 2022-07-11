@@ -25,7 +25,7 @@ int main()
     auto output_data = static_cast<std::uint8_t*>(std::malloc(output_total_size));
     std::memcpy(output_data, &best_huffman->header, output_header_size);
     std::memcpy(output_data + output_header_size, best_huffman->data.data(), output_data_size);
-	std::free(output_data);
+    std::free(output_data);
 	
     return 0;
 }
