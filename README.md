@@ -8,7 +8,7 @@ C++14 Huffman compressor for the GBA, based on [gba-hpp](https://github.com/feli
 There's two functions, one for 4bit mode encoding and another one for 8bit mode encoding:
 
 ```cpp
-#include "gba_hpp.h"
+#include "gba_huff.h"
 
 int main()
 {
