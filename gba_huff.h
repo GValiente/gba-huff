@@ -21,7 +21,7 @@ namespace gba_huff
 
 struct bios_uncomp_header
 {
-    enum class type : std::uint32_t
+    enum class type : std::uint8_t
     {
         lz77 = 0x10,
         huffman_4 = 0x24,
