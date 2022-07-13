@@ -21,7 +21,7 @@ int main()
 				
     std::size_t output_header_size = sizeof(gba_huff::bios_uncomp_header);
     std::size_t output_data_size = best_huffman->data.size();
-    std::size_t output_total_size = header_size + data_size;
+    std::size_t output_total_size = output_header_size + output_data_size;
     auto output_data = static_cast<std::uint8_t*>(std::malloc(output_total_size));
     std::memcpy(output_data, &best_huffman->header, output_header_size);
     std::memcpy(output_data + output_header_size, best_huffman->data.data(), output_data_size);
